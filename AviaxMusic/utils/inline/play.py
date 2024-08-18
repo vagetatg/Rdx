@@ -64,8 +64,12 @@ def stream_markup_timer(_, chat_id, played, dur):
             InlineKeyboardButton(
                 text=f"{played} {bar} {dur}",
                 callback_data="GetTimer",
-            )
+            ),
+        
+            InlineKeyboardButton(
+                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/Xeno_Kakarot"),
         ],
+        
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
     return buttons
@@ -154,3 +158,4 @@ def slider_markup(_, videoid, user_id, query, query_type, channel, fplay):
         ],
     ]
     return buttons
+    
