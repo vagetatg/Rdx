@@ -29,4 +29,5 @@ youtube-search-python
 pyromod
 wget
 blackpink
+electrogram
 
