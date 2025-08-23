@@ -1,6 +1,5 @@
 aiofiles
 aiohttp
-pyrogram==1.4.16
 asyncio
 beautifulsoup4
 dnspython
@@ -31,5 +30,6 @@ pyromod
 wget
 blackpink
 electrogram
+
 
 
